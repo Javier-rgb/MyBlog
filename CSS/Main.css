@@ -48,6 +48,47 @@ header {
 }
 
 .media-icons span {
+    width: 50px;
+    display: block;
+    height: 50px;
+}
+
+.media-icons a {
+    width: 50px;
+}
+
+.facebook {
+    background-image: url("../Assets/1384004-social-media/svg/001-facebook.svg");
+    background-position: center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
     color: white;
-    font-size: 3rem;
+}
+
+.twitter {
+    background-image: url("../Assets/1384004-social-media/svg/001-facebook.svg");
+    background-position: center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    color: white;
+}
+.instagram {
+    background-image: url("../Assets/1384004-social-media/svg/011-instagram.svg");
+    background-position: center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    color: white;
+}
+.linkedin {
+    background-image: url("../Assets/1384004-social-media/svg/010-linkedin.svg");
+    background-position: center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    color: white;
+}
+.youtube {
+    background-image: url("../Assets/1384004-social-media/svg/008-youtube.svg");
+    background-position: center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
 }
