@@ -51,3 +51,31 @@ header {
     color: white;
     font-size: 3rem;
 }
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90px;
+}
+
+.logo {
+    margin-inline-start: 50px;
+}
+
+.logo img {
+    width: 220px;
+    margin-block-start: 10px;
+}
+
+.profile {
+    display: flex;
+    align-self: center;
+    justify-self: end;
+    margin-inline-end: 50px;
+}
+
+.profile a {
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+}
