@@ -13,6 +13,10 @@ body {
     height: 100vh;
 }
 
+:root {
+    --greenblue: #3dc6a2;
+}
+
 a {
     display: inline;
     text-decoration: none;
@@ -30,7 +34,7 @@ header {
     width: 100%;
     height: 50px;
     display: grid;
-    background-color: aqua;
+    background-color: var(--greenblue);
     padding-inline-end: 50px;
 }
 
@@ -41,4 +45,9 @@ header {
     justify-self: flex-end;
     align-items: center;
     justify-content: space-between;
+}
+
+.media-icons span {
+    color: white;
+    font-size: 3rem;
 }
