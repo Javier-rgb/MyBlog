@@ -47,7 +47,7 @@ header {
     height: auto;
     display: flex;
     justify-self: flex-end;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
@@ -140,7 +140,7 @@ button a {
 
 .main-blogs {
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 0.1fr 2fr;
 }
 
 footer {
@@ -157,6 +157,24 @@ footer {
     background-color: #dfe3e9;
     margin-block-end: 15px;
     padding-block-start: 15px;
+}
+
+.morePosts-title {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.morePosts-title p {
+    font-size: 2rem;
+    text-align: center;
+    width: 75%;
+    margin-block-end: 15px;
+}
+
+.morePosts-line {
+    border-bottom: solid 1px black;
 }
 
 .morePosts {
