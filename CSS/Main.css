@@ -114,7 +114,7 @@ h1 {
 }
 
 button {
-    width: 100px;
+    width: 120px;
     height: 50px;
     background-color: var(--greenblue);
     display: flex;
@@ -122,12 +122,13 @@ button {
     justify-content: center;
     align-items: center;
     opacity: .95;
-    font-size: 2rem;
-    font-weight: bold;
 }
 
 button a {
     color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto mono', monospace;
 }
 
 .body-blogs {
@@ -139,7 +140,7 @@ button a {
 
 .main-blogs {
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 2fr;
 }
 
 footer {
@@ -153,6 +154,9 @@ footer {
     grid-template-columns: 1fr 1fr;
     height: 300px;
     width: 100%;
+    background-color: #dfe3e9;
+    margin-block-end: 15px;
+    padding-block-start: 15px;
 }
 
 .morePosts {
