@@ -169,8 +169,9 @@ footer {
 .morePosts-title p {
     font-size: 2rem;
     text-align: center;
-    width: 75%;
+    width: 90%;
     margin-block-end: 15px;
+    font-weight: bold;
 }
 
 .morePosts-line {
@@ -178,9 +179,12 @@ footer {
 }
 
 .morePosts {
+    width: 85%;
+    justify-self: center;
+    justify-content: space-between;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(auto-fill, 350px);
+    grid-template-rows: repeat(auto-fill, minmax(350px));
 }
 
 .photo-content {
@@ -218,33 +222,43 @@ footer {
     font-size: 1.5rem;
 }
 
-.info-content a {
+.readMore {
     border: solid 1px var(--greenblue);
     padding: 10px;
-    width:fit-content;
+    width: fit-content;
 }
 
 .morePosts img {
-    width: 75%;
+    width: 100%;
 }
 
 .morePosts-content {
     display: flex;
     flex-flow: column;
-    justify-self: center;
     max-height: 100%;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .morePosts-content article {
+    width: 90%;
     display: flex;
     flex-flow: column;
     align-items: center;
 }
 
 .morePosts-content > * {
-    margin-block-end: 5px;
+    margin-block-end: 15px;
 }
 
-.morePosts-content article > * {
-    margin-block-end: 5px;
+.morePosts-content article p {
+    text-align: start;
+    justify-content: start;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.morePosts-content .post-title {
+    margin-block-start: 15px;
+    margin-block-end: 20px;
 }
