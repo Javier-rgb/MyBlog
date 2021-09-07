@@ -143,12 +143,6 @@ button a {
     grid-template-rows: 1fr 0.1fr 2fr;
 }
 
-footer {
-    background-color: var(--greenblue);
-    width: 100%;
-    height: 50px;
-}
-
 .lastPost {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -261,4 +255,17 @@ footer {
 .morePosts-content .post-title {
     margin-block-start: 15px;
     margin-block-end: 20px;
+}
+
+footer {
+    background-color: #22272d;
+    border-block-start: 35px solid var(--greenblue);
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    padding-block-start: 15px;
 }
