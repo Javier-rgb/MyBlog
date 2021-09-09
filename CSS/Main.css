@@ -146,7 +146,6 @@ button a {
 .lastPost {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 300px;
     width: 100%;
     background-color: #dfe3e9;
     margin-block-end: 15px;
@@ -169,7 +168,7 @@ button a {
 }
 
 .morePosts-line {
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px #cdd2da;
 }
 
 .morePosts {
@@ -268,4 +267,77 @@ footer {
 footer p {
     color: white;
     padding-block-start: 15px;
+}
+
+.main-blog-page {
+    display: grid;
+    grid-template-rows: 1fr 1fr .5fr;
+}
+
+.main-blog-page .blog-img {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+.blog-img img {
+    max-width: 95%;
+    max-height: 700px;
+}
+
+.blog-content {
+    width: 80%;
+    display: flex;
+    justify-self: center;
+    flex-flow: column;
+    margin-block-start: 50px;
+}
+
+.blog-content p {
+    font-size: 2rem;
+    margin-block-end: 15px;
+}
+
+.blog-content h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding-block-end: 20px;
+    margin-block-end: 30px;
+}
+
+.blog-content .title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-block-end: 30px;
+}
+
+
+.contact {
+    background-color: #dfe3e9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.contact-info img, .writeme img {
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding-inline-start: 20px;
+}
+
+.card a, p {
+    font-size: 1.5rem;
+    padding-inline-start: 10px;
+    justify-self: center;
+    display: flex;
+}
+
+.card a{
+    text-decoration: underline;
 }
